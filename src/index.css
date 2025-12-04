@@ -130,3 +130,10 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+.item > button {
+  visibility: hidden;
+}
+.item:hover > button {
+  visibility:visible;
+}
